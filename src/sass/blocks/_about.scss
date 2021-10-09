@@ -1,0 +1,29 @@
+.about {
+	padding: 78px 0 81px 0;
+	&__wrapper {
+		margin-top: 28px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__descr {
+		width: 520px;
+		p {
+			margin-bottom:21px;
+			font-size: 16px;
+			line-height: 24px;
+			font-weight: 400;
+			color: #555555;
+			span {
+			font-weight: 700;
+			}
+		}		
+	}
+
+	&__img {
+		width: 532px;
+		img {
+			max-width: 100%;
+			object-fit:cover;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.birthday {
+	background-color: 	#fffaf4;
+	margin-bottom: 99px;
+	box-shadow: 0 0 2px 2px #f4ede6;
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	&__descr {
+		margin-top: 13px;
+		font-size: 14px;
+		line-height: 1.2;
+		font-weight: 400;
+		color: #888888;
+	}
+}

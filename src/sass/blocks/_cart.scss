@@ -1,0 +1,150 @@
+.cart-product__text {
+	display: flex;
+}
+
+.cart-content__list {
+	display: flex;
+	justify-content: space-between;
+	flex-direction:column;
+}
+
+.cart-product__title, .cart-product__weight, .all {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.cart-product__price, .fullprice {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #8b0304;
+}
+
+.cart-content {
+	margin-top: 55px;
+}
+.cart-content__fullprice {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.price_fw16 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #8b0304;
+}
+
+.all {
+	margin-right: 57px;
+}
+
+.cart-content__item {
+	border-top: 1px solid gray;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart-content__bottom {
+	border-top: 1px solid gray;
+	padding: 15px 0;
+}
+
+.cart__product-priceblock {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.cart-product__price {
+	margin-right: 8px;
+}
+
+
+.cart-descr {
+	padding: 15px 43px;
+}
+
+.cart__infos {
+	display: flex;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #000000;
+}
+
+.cart__info {
+	padding-left: 33px;
+}
+
+.cart__img {
+	img {
+		width: 450px;
+	}
+}
+
+.cart__info-price, .cart__info-weight {
+	display: flex;
+	padding-top: 12px;
+	align-items: center;
+}
+
+.cart__info-weight, .cart__info-calory, .cart__info-energy, .cart__info-storage {
+	padding-top: 12px;
+}
+
+.price, .price-uah, .price_old {
+	font-size: 24px;
+	color: #555555;
+	line-height: 1.2;
+	font-weight: 700;
+	margin-left: 8px;
+}
+
+.energy, .storage, .weight, .calory  {
+	font-weight: 400;
+	color: #555555;
+	line-height: 1.2;
+}
+
+.weight {
+	margin-left: 8px;
+}
+
+.price_old {
+	color: #ff0000;
+	text-decoration: line-through;
+	margin-left: 2px;
+	font-size: 20px;
+}
+
+.cart__cooked {
+	padding-top: 5px;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.2;
+	display: inline-block;
+	font-weight: 400;
+	color: #555555;
+	p {
+		display: inline-block;
+		margin: 0;
+	}
+}
+
+.cooked-name {
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #000000;
+}
+
+.cart__btn {
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 20px;
+	padding-right: 43px;
+}
+

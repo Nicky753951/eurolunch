@@ -1,0 +1,51 @@
+@mixin before_discount {
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        top: 11px;
+        right: 11px;
+        width: 54px;
+        height: 54px;
+        background: url("../icons/discount.png") center center/cover no-repeat;
+    }
+}
+
+@mixin before_kids {
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        top: 11px;
+        right: 11px;
+        width: 54px;
+        height: 54px;
+        background: url("../icons/kids.png") center center/cover no-repeat;
+    }
+}
+
+.before_discount {
+     &:before {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        top: 11px;
+        right: 11px;
+        width: 54px;
+        height: 54px;
+        background: url("../icons/discount.png") center center/cover no-repeat;
+    }
+}
+
+.before_kids {
+     &:before {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        top: 11px;
+        right: 11px;
+        width: 54px;
+        height: 54px;
+        background: url("../icons/kids.png") center center/cover no-repeat;
+    }
+}

@@ -1,0 +1,22 @@
+.navigation {
+	&__list{
+		display: flex;
+		align-items: center;
+		list-style-type: none;
+		margin: 0;
+	}
+	&__item {
+		padding-right: 40px;
+		a {
+			text-decoration: none;
+			font-size: 16px;
+			line-height: 1.2;
+			font-weight: 500;
+			color: #f5dab5;
+			&:hover {
+				text-decoration: none;
+				color: #f5dab5;
+			}
+		}
+	}
+}

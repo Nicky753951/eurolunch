@@ -1,0 +1,76 @@
+.contacts {
+	padding:59px 0 80px 0;
+	min-height: 774px;
+	background: url("../img/11.jpg") center center/cover no-repeat;
+	&__info {
+		padding: 47px 42px 80px 29px;
+		background-color: white;
+		width: 517px;
+		border-radius: 10px;
+		p {
+			display: block;
+			margin: 0;
+		}
+	}
+
+	&__tel {
+		span {
+			font-size: 20px;
+			line-height: 24px;
+			font-weight: 700;
+			color: #000000;
+		}
+
+		a {	
+			display: block;	
+			color: #555555;
+			text-decoration: none;
+			font-size: 16px;
+			line-height: 24px;
+			font-weight: 700;
+			&:hover {
+				color: #555555;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&__propositions {
+		margin-top: 53px;
+		font-size: 16px;
+		color: black;
+		font-weight: 700;
+		a {
+			color: #555555;
+			&:hover {
+				color: #555555;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&__shops {
+		margin-top: 20px;
+		font-size: 20px;
+		font-weight: 700;
+ 		color: #000000;
+ 		p {
+ 			font-size: 16px;
+			font-weight: 400;
+			color: #555555;
+ 		}
+ 		span {
+ 			font-size: 20px;
+			line-height: 24px;
+			font-weight: 700;
+			color: #000000;
+ 		}
+	}
+
+	.italic {
+		font-family: 'Helvetica Neue Cyr Italic';
+		font-size: 16px;
+		font-weight: 400;
+		color: #555555;
+	}
+}

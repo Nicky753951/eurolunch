@@ -1,0 +1,42 @@
+.footer {
+	padding-top: 48px;
+	padding-bottom: 54px;
+	background-color: #0c0000;
+
+	min-height: 151px;
+	&__wrapper {
+		justify-content: space-between;
+		display: flex;
+	}
+	&__main {
+		display: flex;
+		img {
+			margin-right: 24px;
+		}
+	}
+	&__text {
+		p { 
+			font-size: 14px;
+			line-height: 1.2;
+			font-weight: 400;
+			color: #ffffff;
+			margin: 0;
+		}
+		a { 
+			display: block;
+			font-size: 14px;
+			line-height: 24px;
+			font-weight: 400;
+			color: #ffffff;
+			margin: 0;
+				&:hover {
+					color: #ffffff;
+					text-decoration: none;
+				}
+		}
+	}
+
+	.footer__text p,a{
+		font-size: 12px;
+	}
+}

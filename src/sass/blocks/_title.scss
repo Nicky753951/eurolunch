@@ -1,0 +1,18 @@
+.title {
+		font-size: 36px;
+		line-height: 1.2;
+		font-weight: 700;
+		color: $main-color;
+
+	&_birthday {
+		font-size: 36px;
+		line-height: 24px;
+		font-weight: 700;
+	}
+
+	&_center {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+}

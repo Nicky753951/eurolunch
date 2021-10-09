@@ -1,0 +1,86 @@
+.btn {
+	width: 134px;
+	height: 36px;
+	background-color: #7c1d1d;
+	border-radius: 18px;
+	border: none;
+	padding: 0 18px;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__line {
+		height: 17px;
+		width: 1px;
+		background-color: #af7c72;
+	}
+
+	&__sum	{
+		font-weight: 700;
+		color: #ffffff;
+		font-size: 16px;
+		padding-top: 5px;																			
+	}
+
+	&__name {
+		padding-top: 4px;
+		font-size: 16px;
+		line-height: 14px;
+		font-weight: 400;
+		color: #dccebb;
+		}
+
+	&_order {
+		width: 150px;
+		height: 44px;
+		background-color: $main-color;
+		border-radius: unset;
+		color: white;
+		padding: 0 13px;
+	}
+
+	&_want {
+		width: 150px;
+		height: 44px;
+		background-color: $main-color;
+		border-radius: unset;
+		color: white;
+		padding: 0 13px;
+	}
+
+	&_menu {
+		margin-top: 20px;
+		width: 179px;
+		height: 44px;
+		background-color: $main-color;
+		border-radius: unset;
+		color: white;
+	}
+
+	&_cont {
+		width:300px;
+		height: 44px;
+		background-color: #ffd964;
+		border-radius:unset;
+		color: #8b0304;
+		margin-right: 14px;
+	}
+
+	&_edit {
+		width:300px;
+		height: 44px;
+		background-color: #ffd964;
+		border-radius:unset;
+		color: #8b0304;
+		margin-right: 14px;
+	}
+
+	&_submit{
+		width:300px;
+		height: 44px;
+		background-color: #8b0304;
+		border-radius:unset;
+		color: #ffd964;
+	}
+}

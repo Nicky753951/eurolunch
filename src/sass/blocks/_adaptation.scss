@@ -1,0 +1,236 @@
+@media (max-width: 1200px){	
+	.header .navigation .navigation__list .navigation__item {
+		padding-right: 30px;
+	}
+	.feedback .telephone {
+		margin-right: 27px;
+	}
+	.product {
+		justify-content: space-around;
+	}
+	.about .about__wrapper {
+		flex-direction:column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.about .about__descr {
+		margin-top: 40px;
+	}
+
+	.overlay .modal {
+		width: 960px;
+	}
+
+	.form .form__radiobuttons .form__radio-wrapper {
+		margin-right:163px;
+	}
+
+	.form .form__inputs .form__input_width {
+		width: 417px;
+	}
+}
+
+@media (max-width: 992px){
+	.header .navigation .navigation__list .navigation__item {
+		padding-right: 20px;
+		a{
+			font-size: 15px;
+		}
+	}
+	.feedback {
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		.telephone {
+			margin-right: 0;
+			font-size: 14px;
+		}
+	}
+	.product .product__block {
+		width: 330px;
+		.product__card {
+			width: 100%;
+			height: 250px;
+			object-fit:cover;
+		}
+	}
+
+	.circs .circs__wrapper {
+		justify-content: space-around;
+		.circs__block {
+			margin-bottom: 70px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	
+	.title_birthday {
+		font-size: 30px;
+	}
+
+	.care .care__wrapper ul li {
+		font-size: 14px;
+	}
+	.main-title {
+		margin-top: 40px;
+	}
+
+	.overlay .modal {
+		width: 720px;
+	}
+
+	.form .form__radiobuttons .form__radio-wrapper {
+		margin-right:60px;
+	}
+
+	.form .form__inputs .form__input {
+		width: 206px;
+	}
+	.form .form__inputs .form__input_width {
+			width: 315px;
+	}
+}
+
+@media (max-width: 768px){
+	.header .navigation {
+		display: none;
+	}
+
+	.tab__content-wrapper {
+		flex-direction:column;
+		align-items: center;
+	}
+
+	.delivery .tabs .tab {
+		width: 	270px;
+	}
+
+	.overlay .modal {
+		width: 540px;
+	}
+	.form .form__inputs {
+		justify-content: center;
+		flex-direction:column;
+		align-items: flex-start;
+	}
+	.form .form__inputs .form__input {
+		margin-bottom: 10px;
+		width: 315px;
+	}
+	.form .form__radiobuttons {
+		justify-content: center;
+		flex-direction:column;
+		align-items: flex-start;
+	}
+	.form .form__radiobuttons .form__radio-wrapper {
+		margin-bottom:20px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 768px){
+	.promo .main-title {
+		width: auto;
+		margin-top: 70px;
+	}
+
+	.footer__main {
+		width: 60%;
+		flex-direction:column;
+		img {
+			margin-bottom: 20px;
+		}
+	}
+
+	.footer .footer__text a {
+		margin: 0 0 15px 0;
+		line-height: 15px;
+	}
+
+	.footer .footer__text p {	
+			margin: 0 0 15px 0;
+			line-height: 15px;
+	}
+}
+
+@media (max-width:576px){
+	.promo {
+		.promo__img {
+			img {
+				max-width: 70%;
+			}
+		}
+		&__iso-descr {
+			text-align: left;												
+		}
+	}
+	.birthday {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.birthday__wrapper {
+		flex-direction:column;
+		align-items: center;
+		justify-content: center;
+		img {
+			margin-bottom: 20px;
+		}
+		.btn_order {
+			margin: 20px 0;
+		}
+		.title_birthday {
+			text-align: center;
+			font-size: 28px;
+		}
+
+		.birthday__descr{
+			text-align: center;
+		}
+	}
+
+	.delivery .tabs .tab {
+		width: 150px;
+		padding-top: 21px;
+		font-size: 15px;
+	}
+	.contacts .contacts__info {
+		width: 100%;
+	}
+
+	.about .about__img {
+		width: 100%;
+	}
+
+	.about .about__descr {
+		width: 100%;
+	}
+
+	.care .care__wrapper {
+		flex-direction:column;
+		justify-content: center;
+		align-self: center;
+		margin-top: 35px;
+		ul {
+			margin: 0;
+		}
+	}
+
+	.overlay .modal {
+		width: 310px;
+	}
+	.modal .form {
+		padding: 40px 20px 45px 20px;
+	}
+
+	.form .form__inputs .form__input {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.modal .modal__header {
+		padding: 0 20px;
+	}
+}

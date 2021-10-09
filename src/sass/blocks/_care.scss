@@ -1,0 +1,56 @@
+.care {
+	padding: 78px 0 85px 0;
+	background-color: #f1e9e2;
+
+	h3 {
+		margin-top: 34px;
+		font-size: 30px;
+		line-height: 24px;
+		font-weight: 700;
+		color: $main-color;
+		text-align: center;
+	}
+	&__descr {
+		margin-top: 35px;
+		text-align: center;
+		line-height: 1.2;
+		font-weight: 700;
+		font-size: 18px;
+		color: #000000;
+	}
+	&__text {
+		margin-top: 35px;
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 400;
+		color: #555555;
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		ul {
+			margin-top: 35px;
+			list-style-type: none;
+			li {
+				padding-left:25px;
+				position: relative;
+				font-size: 16px;
+				line-height: 1.2;
+				font-weight: 700;
+				color: #000000;
+				margin-bottom: 20px;
+				&:before {
+					content: "";
+					position: absolute;
+					background: url('../icons/ok.svg') center (center / cover) no-repeat;
+					width: 17px;
+					height: 18px;
+					left: 0;
+					// top:50%;
+					// transform:translateY(-50%);
+					top: 0;
+				}
+			}
+		}
+	}
+}
